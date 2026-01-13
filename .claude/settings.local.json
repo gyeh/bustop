@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:www.brendangregg.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:blog.bugsiki.dev)",
+      "WebFetch(domain:ss64.com)",
+      "Bash(sudo powermetrics:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(powermetrics:*)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(cargo init:*)",
+      "Bash(cargo build:*)",
+      "Bash(cargo fix:*)",
+      "Bash(./target/release/bustop:*)"
+    ]
+  }
+}
